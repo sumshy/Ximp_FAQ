@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+     
+    }
+     /* Background image*/
+
+    body {
+     
+    background-image: url(Relax.jpg);
+    background-size: cover;
+    
+    font-family: sans-serif;
+     
+    }
+/* The navigation links*/
+    .link-container{
+        align-items: center;
+        width: auto;
+        display: flex;
+        height: 100px;
+        box-shadow: 0px 1px 6px 1px #000;
+    }
+    
+    .link-container .nav_links{
+        flex: 2;
+        text-align: center;
+    }
+    
+    .link-container .nav_links a{
+        color: #000;
+        text-decoration: none;
+        padding: 8px 22px;
+        border: 0.5px solid black;
+       
+    }
+
+    .link-container .nav_links a:hover{
+        color: black;
+        text-decoration: underline;
+        background-color: oldlace;
+    }
+
+
+    .text-box {
+        
+        padding: 150px 100px;
+    
+
+    }
+
+    img {
+        padding: 0 30px 0 0;
+        float: left;
+        width: 500px;
+        height: 350px;
+    }
+    
+
+    h1 {
+        margin-bottom: 10px;
+
+    }
+    
+    p{
+
+        margin-top: 0px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+        
+    }
+
+/* contacts */
+
+form {
+
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.control-form {
+
+width: 400px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid white ;
+color: white;
+font-size: 18px;
+margin-bottom: 16px;
+
+}
+
+input {
+    height: 45px;
+
+}
+
+form .submit {
+
+    
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top:20px ;
+    background: rgba(76, 175, 80, 0.1);
+    border-color: aqua;
+    color: bisque;
+    font-size: 20px;
+
+}
+
+form .submit:hover {
+
+background:rgb(215, 231, 215);
+color: black;
+cursor: pointer;
+
+}
+
+
+
+
+.contacts{
+
+    text-align: center;
+    margin-top: 5%;
+}
+
+    .contactus {
+        width: 60%;
+        margin: 50px auto;
+       
+    }
+    .piga-simu {
+        background: rgba(76, 175, 80, 0.1);
+        box-shadow: 0px 10px 50px 10px #fff;
+    display: flex;
+    
+    }
+    
+   
+    a{
+        text-decoration: none;
+    }
+    
+
+    .content-container {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+   
+
+
+    /**Questions **/
+    .questionrank{
+        
+        background: white;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+        background: rgba(76, 175, 80, 0.1);
+
+        box-shadow: 0px 10px 50px 10px #fff;
+    }
+    .form-container{
+        position: relative;
+        width: 40%;
+    }
+
+    .correction p{
+color: red;
+font-weight: bolder;
+    }
+
+    .score-board{
+        display: flex;
+        display: none;
+        color: red;
+        font-weight: bolder;
+        flex-direction: column;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        bottom: 0%;
+        left: 70%;
+        border-radius: 50%;
+        background: rgba(76, 175, 80, 0.1);
+
+        box-shadow: 0px 10px 50px 10px #fff;
+    }
+
+    #submit{
+        background: white;
+        width: 40%;
+        font-weight: bolder;
+        padding: 1em;
+        border-radius: 10px;
+    }
+    #submit:hover{
+        background: yellow;
+    }
+/*---------footer note*/
+
+    .footer-container {
+        background-color: rgb(82, 92, 102);
+        padding-bottom: 40px;
+    }
+    .chini {
+        
+        height: 40vh;
+        background-color: rgb(148, 162, 176);
+        color: azure;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+    }
+    .footer-information {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    }
+    
+    
+    .footer-information a:hover {
+    color: yellowgreen;
+    transition: 0.2s ease-out;
+    }
+
+    .footer-information a {
+
+        color: #000;
+        margin-top: 10%;
+    }
+    
